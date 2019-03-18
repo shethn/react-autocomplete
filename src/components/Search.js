@@ -65,7 +65,7 @@ class Search extends Component {
             else if( suggestions.length )
             suggestionsList = (
                 <ul className="suggestions">
-                    {suggestions.map(suggestion =>
+                    {suggestions.map( suggestion =>
                         <li key={suggestion} onClick={this.onClick}>
                             {suggestion}
                         </li>
@@ -95,7 +95,6 @@ class Search extends Component {
                         placeholder="Enter search here..."
                         value={this.state.userInput}
                         onChange={this.onChange}
-                        onKeyDown={this.onKeyDown}
                         autoFocus
                     />
                 </div>
