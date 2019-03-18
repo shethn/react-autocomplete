@@ -1,0 +1,34 @@
+.alert {
+    margin-top: 1rem;
+    padding: .375rem .75rem;
+}
+
+.jumbotron {
+    background-color: darkslategray;
+    color: ghostwhite;
+}
+
+#search {
+    margin: 0;
+}
+
+.suggestions {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border: 1px solid #ced4da;
+    border-top: 0
+}
+
+.suggestions li:not(:last-of-type) {
+    border-bottom: 1px solid #ced4da;
+}
+
+.suggestions  li{
+    padding: .375rem .75rem;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: lightblue;
+}
